@@ -8,12 +8,13 @@ var pro5 = Number. isInteger(entrada / 6);
 var pro6 = Number. isInteger(entrada / 7);
 // el resultado de pi*numero se mostrará siempre que el número de entrada sea primo
 var resultado =entrada*Math.PI;
-//varificando los 4 primeros # primos
+
+//verificando los 4 primeros primos
 if((entrada == 2 )|| (entrada == 3) || (entrada == 5)|| (entrada ==7)){
     alert(entrada + " Es un numero primo.");
     alert("PI * "+ entrada + " = " +resultado);
 }else{
-    //verificacion de los demás # primos 
+    //verificando de los demás # primos 
     if( (pro1 == false  ) 
    && (pro2 == false )
    && (pro4 == false )
