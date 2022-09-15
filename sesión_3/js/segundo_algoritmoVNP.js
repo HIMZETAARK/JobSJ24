@@ -6,6 +6,7 @@ var pro2 = Number. isInteger(entrada / 3);
 var pro4 = Number. isInteger(entrada / 5);
 var pro5 = Number. isInteger(entrada / 6);
 var pro6 = Number. isInteger(entrada / 7);
+var pro7= Number. isInteger(entrada /11);
 // el resultado de pi*numero se mostrará siempre que el número de entrada sea primo
 var resultado =entrada*Math.PI;
 
@@ -20,6 +21,7 @@ if((entrada == 2 )|| (entrada == 3) || (entrada == 5)|| (entrada ==7)){
    && (pro4 == false )
    && (pro5 == false )
    && (pro6 == false )
+   && (pro7 == false )
    && (entrada != 1  )
    && entrada/entrada == 1
     ){

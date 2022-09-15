@@ -4,7 +4,7 @@ var entrada = parseInt(prompt("Ingresa el número: "));
 var contador = 0;
 if(entrada != 1){
 //procesando
-    for (var a=1 ; a <= 9 ; a++) {
+    for (var a=1 ; a <= entrada; a++) {
     var resultado= Number. isInteger(entrada / a);
         if( resultado== true){
            ++contador;
